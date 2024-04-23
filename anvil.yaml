@@ -4,11 +4,7 @@ services:
 - source: /runtime/services/tables.yml
   client_config: {}
   server_config: {}
-
-startup: {type: form, module: servicers.service_navigation_bar}
-
-startup: {type: form, module: home}
-
+startup: {type: form, module: servicers_registration_form.servicers_registration_form_main}
 package_name: Oxyvive
 allow_embedding: false
 name: Oxyvive
