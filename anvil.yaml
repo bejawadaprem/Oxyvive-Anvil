@@ -16,23 +16,20 @@ startup_form: null
 db_schema:
   book_slot:
     title: book_slot
-    client: full
+    client: none
     server: full
     columns:
     - name: book_time
       admin_ui: {width: 200}
       type: string
-    - name: service_type
-      admin_ui: {width: 200, order: 5}
-      type: string
+    - name: slot_id
+      admin_ui: {width: 200}
+      type: number
     - name: user_id
-      admin_ui: {width: 200, order: 7}
-      type: string
-    - name: book_date
-      admin_ui: {width: 200, order: 8}
-      type: date
-    - name: serviceProvider_id
-      admin_ui: {width: 200, order: 9}
+      admin_ui: {width: 200}
+      type: number
+    - name: username
+      admin_ui: {width: 200}
       type: string
   oxiclinics:
     title: oxiclinics
