@@ -5,7 +5,6 @@ import anvil.tables as tables
 import anvil.tables.query as q
 from anvil.tables import app_tables
 import re
-import bcrypt
 
 class signup(signupTemplate):
     def __init__(self, **properties):
@@ -26,8 +25,8 @@ class signup(signupTemplate):
             rows = app_tables.users.search()
             id = f"C{len(rows):04d}"
             
-            # Hash the password using bcrypt
-            hashed_password = bcrypt.hashpw(password.encode(), bcrypt.gensalt())
+            # Hash the password using server-side function
+            hashed_password = anvil.server.call('password_utils.hash_password', password)
             
             app_tables.users.add_row(id=id, username=username, email=email, password=hashed_password, phone=int(phone), pincode=pincode)
             
