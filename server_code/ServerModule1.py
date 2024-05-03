@@ -59,9 +59,4 @@ def check_login_credentials(email, password):
         return False
 
 
-import hashlib
 
-def hash_password(password):
-    # Hash the password using SHA-256
-    hashed_password = hashlib.sha256(password.encode()).hexdigest()
-    return hashed_password
