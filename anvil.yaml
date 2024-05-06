@@ -213,9 +213,6 @@ db_schema:
     - name: password
       admin_ui: {width: 200}
       type: string
-    - name: phone
-      admin_ui: {width: 200}
-      type: number
     - name: pincode
       admin_ui: {width: 200}
       type: number
@@ -231,6 +228,9 @@ db_schema:
     - name: usertype
       admin_ui: {width: 200, order: 8}
       type: string
+    - name: phone
+      admin_ui: {width: 200, order: 1.5}
+      type: number
   wallet:
     title: wallet
     client: full
