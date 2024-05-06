@@ -34,6 +34,12 @@ db_schema:
     - name: serviceProvider_id
       admin_ui: {width: 200, order: 9}
       type: string
+    - name: slot_id
+      admin_ui: {width: 200}
+      type: number
+    - name: username
+      admin_ui: {width: 200}
+      type: string
   oxiclinics:
     title: oxiclinics
     client: full
