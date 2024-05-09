@@ -3,7 +3,7 @@ dependencies: []
 services:
 - source: /runtime/services/tables.yml
   client_config: {}
-startup: {type: form, module: wallet}
+startup: {type: form, module: home}
 package_name: Oxyvive
 allow_embedding: false
 name: Oxyvive
