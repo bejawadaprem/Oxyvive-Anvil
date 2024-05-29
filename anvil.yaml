@@ -45,19 +45,10 @@ db_schema:
     client: full
     server: full
     columns:
-    - name: name
-      admin_ui: {width: 200}
-      type: string
-    - name: email
-      admin_ui: {width: 200}
-      type: string
     - name: phone
       admin_ui: {width: 200}
       type: number
     - name: password
-      admin_ui: {width: 200}
-      type: string
-    - name: established_year
       admin_ui: {width: 200}
       type: string
     - name: District
