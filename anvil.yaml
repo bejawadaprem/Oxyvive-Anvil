@@ -7,7 +7,7 @@ services:
   client_config: {}
   server_config: {custom_smtp: true, smtp_host: smtp.gmail.com, smtp_port: 587, smtp_encryption: starttls,
     smtp_user: bejawdaprem@gmail.com, smtp_password: 7FHH1wodgScWDCVY49KGqvvXtXKtPTh3f7KuC6EEx2IBVQuxH9rZXIBKpveCUAiZbMFvakWKxE/IjtKDU9KOnsMsUP5yBdW62Yw7a+ftv3cEi3WN0DqyVaD9E20ScC/MCZeJ1mg5bbr1o7R6Hd5YGmmuFBNJk5LGNTD4GK2CRuY8w1g=}
-startup: {type: form, module: dashboard}
+startup: {type: form, module: home}
 package_name: Oxyvive
 allow_embedding: false
 name: Oxyvive
