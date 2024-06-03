@@ -90,3 +90,7 @@ class slot_book(slot_bookTemplate):
     def primary_color_1_click(self, **event_args):
       """This method is called when the button is clicked"""
       open_form('wallet')
+
+    def button_5_click(self, **event_args):
+      """This method is called when the button is clicked"""
+      pass
