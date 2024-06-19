@@ -54,6 +54,7 @@ components:
     properties: {text: Logout, role: primary-color, background: red, foreground: white, spacing_above: small, spacing_below: small}
     type: Button
     layout_properties: {grid_position: 'NWKQOS,LSISTC LCPYNS,BIYQSA'}
+    event_bindings: {click: primary_color_2_click}
   - name: xy_panel_2
     properties: {height: 508.99993896484375}
     type: XYPanel

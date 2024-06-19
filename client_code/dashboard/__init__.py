@@ -38,3 +38,7 @@ class dashboard(dashboardTemplate):
               # Update the repeating panel with location suggestions
               self.repeating_panel_1.items = result['results']
 
+  def primary_color_2_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    open_form('home')
+
