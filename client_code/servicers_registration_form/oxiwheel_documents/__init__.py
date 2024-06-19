@@ -26,7 +26,7 @@ class oxiwheel_documents(oxiwheel_documentsTemplate):
     if not self.first_file_name and not self.second_file_name:
       Notification('Upload Documents.' ).show()
     else:
-      user_details = app_tables.users.get(id=self.user_id)
+      user_details = app_tables.oxi_users.get(oxi_id=self.user_id)
       print(user_details)
       oxiwheel_details = self.oxiwheel_details
       print(oxiwheel_details)

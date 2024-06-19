@@ -26,7 +26,7 @@ class oxiclinic_documents(oxiclinic_documentsTemplate):
     if not self.first_file_name and not self.second_file_name:
       Notification('Upload Documents.' ).show()
     else:
-      user_details = app_tables.oxi_users.get(oxi_id=self.oxi_id)
+      user_details = app_tables.oxi_users.get(id=self.user_id)
       print(user_details)
       oxiclinc_details = self.oxiclinc_details
       app_tables.oxiclinics.add_row(oxi_id=str(user_details['oxi_id']),
