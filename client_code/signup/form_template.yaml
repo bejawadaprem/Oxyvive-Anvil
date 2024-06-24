@@ -41,13 +41,11 @@ components:
   layout_properties: {grid_position: 'ZNBZAO,MQKYRN'}
   components:
   - name: image_2
-    properties: {source: 'https://cdni.iconscout.com/illustration/premium/thumb/login-page-4468581-3783954.png?f=webp',
-      height: 760.5999755859375}
+    properties: {source: 'https://cdni.iconscout.com/illustration/premium/thumb/login-page-4468581-3783954.png?f=webp', height: 760.5999755859375}
     type: Image
     layout_properties: {grid_position: 'BRBJFU,PFBYKP'}
   - name: label_4
-    properties: {text: Create new account, align: left, font_size: 22, bold: true,
-      foreground: '#40486d', underline: true}
+    properties: {text: Create new account, align: left, font_size: 22, bold: true, foreground: '#40486d', underline: true}
     type: Label
     layout_properties: {grid_position: 'BRBJFU,DJYSIT EWSNRQ,APYNJB'}
   - name: spacer_2
@@ -62,8 +60,7 @@ components:
     properties: {border: 1px solid black}
     type: TextBox
     layout_properties: {grid_position: 'BRBJFU,DJYSIT VXMWFA,XXUHFD'}
-    event_bindings: {pressed_enter: text_box_1_pressed_enter, focus: text_box_1_focus,
-      lost_focus: text_box_1_lost_focus}
+    event_bindings: {pressed_enter: text_box_1_pressed_enter, focus: text_box_1_focus, lost_focus: text_box_1_lost_focus}
   - name: label_3
     properties: {text: 'Email :', bold: true, align: left, font_size: 15}
     type: Label
@@ -105,8 +102,7 @@ components:
     type: Spacer
     layout_properties: {grid_position: 'BRBJFU,DJYSIT YOLLPR,XLPCLH'}
   - name: primary_color_1
-    properties: {text: 'signup        ', role: primary-color, background: red, foreground: white,
-      bold: true}
+    properties: {text: 'signup        ', role: primary-color, background: red, foreground: white, bold: true}
     type: Button
     layout_properties: {grid_position: 'BRBJFU,DJYSIT JDRPQQ,BAPKEN'}
     event_bindings: {click: primary_color_1_click}
@@ -116,8 +112,7 @@ components:
     layout_properties: {grid_position: 'BRBJFU,DJYSIT DDFCXI,QBOKFP'}
     event_bindings: {click: link_1_click}
   - name: link_2
-    properties: {align: left, text: 'Are you a doctor? Register Here', underline: true,
-      font_size: 13}
+    properties: {align: left, text: 'Are you a doctor? Register Here', underline: true, font_size: 13}
     type: Link
     layout_properties: {grid_position: 'BRBJFU,DJYSIT DDFCXI,AMSUDX'}
     event_bindings: {click: link_2_click}

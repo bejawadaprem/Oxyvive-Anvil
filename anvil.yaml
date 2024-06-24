@@ -226,6 +226,12 @@ db_schema:
     - name: oxi_address
       admin_ui: {width: 200, order: 5.5}
       type: string
+    - name: oxi_gst
+      admin_ui: {width: 200}
+      type: string
+    - name: oxi_pan
+      admin_ui: {width: 200}
+      type: string
   oxi_wallet:
     title: oxi_wallet
     client: full

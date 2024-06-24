@@ -1,32 +1,25 @@
 container: {type: ColumnPanel}
 components:
 - name: servicers_navigation_bar
-  properties: {background: '#fa1900', align: center, spacing_above: none, spacing_below: none,
-    spacing: huge, vertical_align: top}
+  properties: {background: '#fa1900', align: center, spacing_above: none, spacing_below: none, spacing: huge, vertical_align: top}
   type: FlowPanel
   layout_properties: {grid_position: 'QKSNRC,JVTQPB', full_width_row: true}
   components:
   - name: servicers_home_link
-    properties: {role: null, url: '', align: center, tooltip: home, border: '', foreground: 'theme:White',
-      visible: true, text: Home, font_size: 15, wrap_on: mobile, font: '', col_spacing: medium,
-      spacing_above: small, icon_align: left, col_widths: '', spacing_below: small,
-      italic: false, background: '', bold: false, underline: false, icon: 'fa:home'}
+    properties: {role: null, url: '', align: center, tooltip: home, border: '', foreground: 'theme:White', visible: true, text: Home, font_size: 15, wrap_on: mobile, font: '', col_spacing: medium, spacing_above: small, icon_align: left, col_widths: '', spacing_below: small, italic: false, background: '', bold: false, underline: false, icon: 'fa:home'}
     type: Link
     event_bindings: {click: servicers_home_link_click}
     layout_properties: {}
   - name: servicers_contact_link
-    properties: {align: center, text: Contact us, foreground: 'theme:White', icon: 'fa:phone',
-      bold: false, font_size: 15}
+    properties: {align: center, text: Contact us, foreground: 'theme:White', icon: 'fa:phone', bold: false, font_size: 15}
     type: Link
     layout_properties: {}
   - name: about_us
-    properties: {text: About us, foreground: 'theme:White', icon: 'fa:adn', bold: false,
-      align: center, font_size: 15}
+    properties: {text: About us, foreground: 'theme:White', icon: 'fa:adn', bold: false, align: center, font_size: 15}
     type: Link
     layout_properties: {}
   - name: help_link
-    properties: {text: Help, foreground: 'theme:White', icon: 'fa:question-circle',
-      align: center, bold: false, font_size: 14}
+    properties: {text: Help, foreground: 'theme:White', icon: 'fa:question-circle', align: center, bold: false, font_size: 14}
     type: Link
     layout_properties: {}
 is_package: true

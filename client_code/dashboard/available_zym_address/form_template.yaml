@@ -1,8 +1,7 @@
 is_package: true
 container:
   type: HtmlTemplate
-  properties: {tooltip: '', background: '', foreground: '', border: '', visible: true,
-    role: null, html: ''}
+  properties: {tooltip: '', background: '', foreground: '', border: '', visible: true, role: null, html: ''}
 components:
 - type: ColumnPanel
   properties: {}

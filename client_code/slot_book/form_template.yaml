@@ -1,8 +1,7 @@
 is_package: true
 container:
   type: HtmlTemplate
-  properties: {tooltip: '', background: '', foreground: '', border: '', visible: true,
-    role: null, html: ''}
+  properties: {tooltip: '', background: '', foreground: '', border: '', visible: true, role: null, html: ''}
 components:
 - type: ColumnPanel
   properties: {}
@@ -23,8 +22,7 @@ components:
       type: Label
       layout_properties: {x: 84.08750991895795, y: 26.55000190809369, width: 466}
   - name: label_3
-    properties: {align: center, text: Book a Slot, bold: true, foreground: 'theme:Primary
-        700', font_size: 20}
+    properties: {align: center, text: Book a Slot, bold: true, foreground: 'theme:Primary 700', font_size: 20}
     type: Label
     layout_properties: {grid_position: 'OLTNFF,VBFVNY', full_width_row: true}
   - name: card_1
@@ -33,8 +31,7 @@ components:
     layout_properties: {grid_position: 'PCZVMJ,PNJUWC'}
     components:
     - name: button_1
-      properties: {text: button_1, border: '', foreground: '', role: raised, visible: true,
-        background: 'theme:Gray 200', enabled: true}
+      properties: {text: button_1, border: '', foreground: '', role: raised, visible: true, background: 'theme:Gray 200', enabled: true}
       type: Button
       layout_properties: {grid_position: 'YUKIRJ,CBBTYA'}
       event_bindings: {click: button_1_click}
@@ -55,8 +52,7 @@ components:
       layout_properties: {grid_position: 'YUKIRJ,XVYUPT'}
       event_bindings: {click: button_4_click}
   - name: label_1
-    properties: {align: center, text: Choose Time Slot, foreground: 'theme:Primary
-        700', bold: true, font_size: 15, underline: true}
+    properties: {align: center, text: Choose Time Slot, foreground: 'theme:Primary 700', bold: true, font_size: 15, underline: true}
     type: Label
     layout_properties: {grid_position: 'MFBRGU,FFRAQB', full_width_row: true}
     data_bindings:
@@ -96,8 +92,7 @@ components:
     type: Spacer
     layout_properties: {grid_position: 'NLJTXR,JPDJUI'}
   - name: primary_color_1
-    properties: {text: Pay Now, role: primary-color, visible: false, background: 'theme:Primary
-        700', bold: true}
+    properties: {text: Pay Now, role: primary-color, visible: false, background: 'theme:Primary 700', bold: true}
     type: Button
     layout_properties: {grid_position: 'CAHHTO,KXOSUX', full_width_row: true, row_background: ''}
     event_bindings: {click: primary_color_1_click}

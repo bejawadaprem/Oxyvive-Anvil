@@ -12,8 +12,7 @@ components:
     type: Image
     layout_properties: {x: 4.749989319592714, y: 0, width: 120}
   - name: label_1
-    properties: {align: left, text: OXIVIVE, bold: true, foreground: 'theme:White',
-      font_size: 18}
+    properties: {align: left, text: OXIVIVE, bold: true, foreground: 'theme:White', font_size: 18}
     type: Label
     layout_properties: {x: 103.65001373365521, y: 33, width: 77.2}
   - name: flow_panel_1
@@ -22,8 +21,7 @@ components:
     layout_properties: {x: 312.2000091560185, y: 33.0749977119267, width: 400}
     components:
     - name: link_1
-      properties: {align: center, text: Home, bold: true, italic: false, background: '',
-        foreground: 'theme:White', role: null}
+      properties: {align: center, text: Home, bold: true, italic: false, background: '', foreground: 'theme:White', role: null}
       type: Link
       layout_properties: {}
       event_bindings: {click: link_1_click}

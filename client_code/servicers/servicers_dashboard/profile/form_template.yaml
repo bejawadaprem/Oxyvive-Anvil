@@ -45,10 +45,7 @@ components:
       layout_properties: {x: 504.95002365112305, y: 166.58750915527344, width: 37.7875}
       event_bindings: {change: file_loader_1_change}
     - name: image_1
-      properties: {role: image, vertical_align: center, height: 190, tooltip: '',
-        border: '', foreground: '', visible: true, display_mode: shrink_to_fit, alt_text: profile,
-        spacing_above: small, source: _/theme/hospital-building.jpg, spacing_below: small,
-        background: '', horizontal_align: center}
+      properties: {role: image, vertical_align: center, height: 190, tooltip: '', border: '', foreground: '', visible: true, display_mode: shrink_to_fit, alt_text: profile, spacing_above: small, source: _/theme/hospital-building.jpg, spacing_below: small, background: '', horizontal_align: center}
       type: Image
       layout_properties: {x: 352.0500152595341, y: 13.387496948242188, width: 182}
 - name: c_id
