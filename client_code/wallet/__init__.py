@@ -8,7 +8,7 @@ class wallet(walletTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)
-    wallet_row = app_tables.wallet.get()  # Modify this line to suit your table structure
+    wallet_row = app_tables.oxi_wallet.get()  # Modify this line to suit your table structure
     
     if wallet_row:
         # Get the wallet balance

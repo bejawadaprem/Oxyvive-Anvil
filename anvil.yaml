@@ -6,7 +6,7 @@ services:
 - source: /runtime/services/anvil/email.yml
   client_config: {}
   server_config: {custom_smtp: true}
-startup: {type: form, module: home}
+startup: {type: form, module: wallet}
 package_name: Oxyvive
 allow_embedding: false
 name: Oxyvive
@@ -232,8 +232,8 @@ db_schema:
     - name: oxi_gst
       admin_ui: {width: 200, order: 9}
       type: string
-    - name: oxi_pan
-      admin_ui: {width: 200, order: 10}
+    - name: oxi_pan_card_no
+      admin_ui: {order: 10, width: 200}
       type: string
   oxi_wallet:
     title: oxi_wallet
